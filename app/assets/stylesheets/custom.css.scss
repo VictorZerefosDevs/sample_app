@@ -1,0 +1,13 @@
+$btn-default-bg: #2980b9;
+$btn-default-color: #fff;
+$navbar-inverse-color: #fff;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.btn-sign-in {
+	border-radius: 50px;
+}
