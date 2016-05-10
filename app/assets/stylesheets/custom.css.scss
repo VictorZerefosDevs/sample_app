@@ -1,13 +1,27 @@
 $btn-default-bg: #2980b9;
 $btn-default-color: #fff;
 $navbar-inverse-color: #fff;
-
+$navbar-inverse-link-color: #fff;
+$navbar-inverse-link-hover-bg:rgba(243, 156, 18,1.0);
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+body {
+	margin-top: 80px;
+}
 .btn-sign-in {
 	border-radius: 50px;
+}
+.footer-link {
+	color: white;
+	text-decoration: none;
+	word-spacing: 5px;
+	margin-left: 15px;
+}
+.footer-link:hover {
+	color: white;
+	text-decoration: none;
 }
